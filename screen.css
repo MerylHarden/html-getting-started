@@ -1,4 +1,75 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    font-family: Helvetica;
+    background: #768970;
+    margin-top: 100px;
 }
+
+.card {
+    background: #CAD593;
+    color: #243010;
+    margin: 0 auto;
+    width: 500px; 
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0,3);
+}
+
+.card div {
+    padding: 20px;
+
+}
+
+h1 {
+    background: #87A330;
+    margin: 0;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+img {
+    float:  left;
+    margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  gap: 40px;  
+
+}
+
+.swatch {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  color: rgba(0,0,0,0.6);
+  font-size: 0.75rem;
+  font-family: monospace;
+}
+
+.palette {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.c1 { background-color: #243010; color: #fff; }
+.c2 { background-color: #87A330; }
+.c3 { background-color: #A1C349; }
+.c4 { background-color: #CAD593; }
+.c5 { background-color: #2A3C24; color: #fff; }
+
